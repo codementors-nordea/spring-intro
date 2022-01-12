@@ -1,11 +1,10 @@
-package pl.infoshare.springintro.pets;
+package com.nordea.springintro.pets;
 
+import com.nordea.springintro.pets.model.Pet;
 import org.springframework.web.bind.annotation.*;
-import pl.infoshare.springintro.pets.model.Pet;
 
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;

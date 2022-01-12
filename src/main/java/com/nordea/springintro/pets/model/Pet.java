@@ -1,4 +1,4 @@
-package pl.infoshare.springintro.pets.model;
+package com.nordea.springintro.pets.model;
 
 import lombok.Value;
 import lombok.With;
@@ -11,6 +11,6 @@ public class Pet {
     @With
     Integer id;
     String name;
-    LocalDate birthDate;
+    LocalDate birthdate;
     PetType type;
 }
