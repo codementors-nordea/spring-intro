@@ -1,4 +1,4 @@
-package com.nordea.springintro;
+package pl.codementors.springintro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
