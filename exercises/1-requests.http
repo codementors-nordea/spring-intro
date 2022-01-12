@@ -1,11 +1,11 @@
 ### Znalezienie wszystkich zwierząt
-GET http://localhost:8080/pets
+GET http://localhost:8080/api/pets
 
 ### Znalezienie konkretnego zwierzęcia
-GET http://localhost:8080/pets/1
+GET http://localhost:8080/api/pets/1
 
 ### Stworzenie nowego zwierzęcia
-POST http://localhost:8080/pets
+POST http://localhost:8080/api/pets
 Content-Type: application/json
 
 {
@@ -15,4 +15,4 @@ Content-Type: application/json
 }
 
 ### Wyszukanie zwierzęcia
-GET http://localhost:8080/pets?name=ax
+GET http://localhost:8080/api/pets?name=ax
