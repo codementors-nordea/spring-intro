@@ -1,0 +1,18 @@
+### Znalezienie wszystkich zwierząt
+GET http://localhost:8080/pets
+
+### Znalezienie konkretnego zwierzęcia
+GET http://localhost:8080/pets/1
+
+### Stworzenie nowego zwierzęcia
+POST http://localhost:8080/pets
+Content-Type: application/json
+
+{
+  "name": "Axel",
+  "birthdate": "2020-02-28",
+  "type": "DOG"
+}
+
+### Wyszukanie zwierzęcia
+GET http://localhost:8080/pets?name=ax
