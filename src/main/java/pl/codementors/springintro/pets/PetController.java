@@ -1,7 +1,7 @@
-package com.nordea.springintro.pets;
+package pl.codementors.springintro.pets;
 
-import com.nordea.springintro.pets.model.Pet;
 import org.springframework.web.bind.annotation.*;
+import pl.codementors.springintro.pets.model.Pet;
 
 import java.util.Collection;
 import java.util.HashMap;

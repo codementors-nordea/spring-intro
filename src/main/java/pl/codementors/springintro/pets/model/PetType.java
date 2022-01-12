@@ -1,4 +1,4 @@
-package com.nordea.springintro.pets.model;
+package pl.codementors.springintro.pets.model;
 
 public enum PetType {
     DOG, CAT, TURTLE

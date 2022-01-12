@@ -1,4 +1,4 @@
-package com.nordea.springintro.pets.model;
+package pl.codementors.springintro.pets.model;
 
 import lombok.Value;
 import lombok.With;
